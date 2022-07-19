@@ -40,7 +40,7 @@ p{
     font-family: 'Balsamiq Sans', cursive;
     margin-top: 25px;
     margin-bottom: 15px;
-    color: #072227;
+    color: #4FBDBA;
 }
 
 input{
@@ -63,11 +63,14 @@ input{
 
 button{
     margin-top: 15px;
-    font-size: 45px;
+    font-size: 40px;
     color: #B3541E;
     font-family: 'Balsamiq Sans', cursive;
     background-color: #EFFFFD;
     opacity: 75%;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
 }
 @media all and (max-width:800px){
     h1{
