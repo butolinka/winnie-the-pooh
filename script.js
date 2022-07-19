@@ -16,8 +16,8 @@ function play(){
             imageUrl: 'https://avatars.mds.yandex.net/get-zen_doc/3985268/pub_5fcab3ee702d845a133d5343_5fcab79c702d845a133fd0be/scale_600',
             imageHeight: 350,
             imageWidth: 350,
-            title: 'Пятачок, неси ружье',
-            text: 'Введи число от 1 до 20',
+            title: 'Piglet, it looks like we have a problem',
+            text: 'Enter a number between 1 and 20',
             imageAlt: 'A tall image'
           })
     }
@@ -26,8 +26,8 @@ function play(){
             imageUrl: 'https://regnum.ru/uploads/pictures/news/2018/11/29/regnum_picture_1543487507289327_normal.jpg',
             imageHeight: 350,
             imageWidth: 350,
-            title: 'Это какие-то неправильные пчелы',
-            text: 'Ты должен ввести цифру',
+            title: 'We must be careful',
+            text: 'You have to enter a number',
             imageAlt: 'A tall image'
           })
     }
@@ -37,8 +37,8 @@ function play(){
                 imageUrl: 'https://i.ytimg.com/vi/YPiQGDgrBzg/sddefault.jpg',
                 imageHeight: 350,
                 imageWidth: 350,
-                title: 'И того и другого. И можно без хлеба.',
-                text: 'Попробуй цифру побольше',
+                title: 'Rabbit, we are very hungry. Can we have some more?',
+                text: 'Try to enter a bigger number',
                 imageAlt: 'A tall image'
               })
         }
@@ -47,8 +47,8 @@ function play(){
                 imageUrl: 'https://regnum.ru/uploads/pictures/news/2018/12/07/regnum_picture_1544177818103678_normal.jpg',
                 imageHeight: 350,
                 imageWidth: 350,
-                title: 'Кажется, кто-то слишком много ест.',
-                text: 'Попробуй цифру поменьше',
+                title: 'Looks like someone eating too much',
+                text: 'Try to enter a lower number',
                 imageAlt: 'A tall image'
               })
         }
@@ -58,8 +58,8 @@ function play(){
             imageUrl: 'https://deti-skazki.ru/wp-content/uploads/2019/10/vinni-puh-i-vse-vse-vse-%E2%80%94-alan-miln-696x484.jpg',
             imageHeight: 350,
             imageWidth: 350,
-            title: 'И я, и я, и я того же мнения!',
-            text: 'С днем рождения Иа!!!',
+            title: 'Finally we got here!',
+            text: 'Huppy birthday Eeyore!',
             imageAlt: 'A tall image'
           })
     }
