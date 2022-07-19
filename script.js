@@ -12,6 +12,7 @@ btn.addEventListener('click', play);
 function play(){
     const userAttempt=document.querySelector('input').value;
     if (userAttempt<1||userAttempt>20){
+        input.value = '';
         Swal.fire({
             imageUrl: 'https://avatars.mds.yandex.net/get-zen_doc/3985268/pub_5fcab3ee702d845a133d5343_5fcab79c702d845a133fd0be/scale_600',
             imageHeight: 350,
@@ -22,6 +23,7 @@ function play(){
           })
     }
     else if(isNaN(userAttempt)){
+        input.value = '';
         Swal.fire({
             imageUrl: 'https://regnum.ru/uploads/pictures/news/2018/11/29/regnum_picture_1543487507289327_normal.jpg',
             imageHeight: 350,
@@ -33,6 +35,7 @@ function play(){
     }
     else{
         if (userAttempt< answer){
+            input.value = '';
             Swal.fire({
                 imageUrl: 'https://i.ytimg.com/vi/YPiQGDgrBzg/sddefault.jpg',
                 imageHeight: 350,
@@ -43,6 +46,7 @@ function play(){
               })
         }
         else if (userAttempt>answer){
+            input.value = '';
             Swal.fire({
                 imageUrl: 'https://regnum.ru/uploads/pictures/news/2018/12/07/regnum_picture_1544177818103678_normal.jpg',
                 imageHeight: 350,
@@ -62,6 +66,13 @@ function play(){
             text: 'Huppy birthday Eeyore!',
             imageAlt: 'A tall image'
           })
+         btn.style.display='none';
+          const restart=document.querySelector('.restart');
+          restart.style.display='block';
+          restart.addEventListener('click', reload);
+          function reload(){
+            location.reload();
+          }
     }
 }
 }
