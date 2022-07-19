@@ -1,0 +1,78 @@
+body{
+    background-image: url(http://server.audiopedia.su:8888/staroeradio/images/pics/034898.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkkhaki;
+    background-position: left;
+    height: 100vh;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    color: #B3541E;
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #FFFDA2;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFDA2;
+    width: 250px;
+    height: 300px;
+}
+
+p{
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #072227;
+}
+
+input{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color:#4FBDBA ;
+    border: none;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #072227;
+    outline-style: none;
+}
+::placeholder{
+    font-size: 15px;
+}
+
+button{
+    margin-top: 15px;
+    font-size: 45px;
+    color: #B3541E;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #EFFFFD;
+    opacity: 75%;
+}
+@media all and (max-width:800px){
+    h1{
+        font-size: 20px;
+    }
+    .container{
+        margin-top: 10px;
+    }
+}
