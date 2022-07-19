@@ -72,6 +72,9 @@ button{
     border-style: none;
     padding: 10px;
 }
+.restart{
+    display: none;
+}
 @media all and (max-width:800px){
     h1{
         font-size: 20px;
