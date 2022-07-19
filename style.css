@@ -1,8 +1,7 @@
 body{
-    background-image: url(http://server.audiopedia.su:8888/staroeradio/images/pics/034898.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: darkkhaki;
+    background-color: rgb(252, 242, 111);
     background-position: left;
     height: 100vh;
 }
@@ -19,6 +18,7 @@ h1{
     background-color: #FFFDA2;
     border-radius: 25px;
     padding: 20px;
+    text-align: center;
 }
 
 .container{
@@ -33,6 +33,7 @@ h1{
     background-color: #FFFDA2;
     width: 250px;
     height: 300px;
+    border-radius: 25%;
 }
 
 p{
