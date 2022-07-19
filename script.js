@@ -58,6 +58,7 @@ function play(){
         }
 
     else{
+        input.value = '';
         Swal.fire({
             imageUrl: 'https://deti-skazki.ru/wp-content/uploads/2019/10/vinni-puh-i-vse-vse-vse-%E2%80%94-alan-miln-696x484.jpg',
             imageHeight: 350,
